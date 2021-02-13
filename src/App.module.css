@@ -9,3 +9,31 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.image{
+    width: 350px;    
+}
+
+@media (max-width: 770px){
+    .container {
+        margin: 0 10%,
+    }
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0,0, 255, 0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(19, 255, 19, 0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 31, 1, 0.5);
+}
+
+@media (max-width: 770px){
+   .card {
+       margin: 2% 0 !important;
+   } 
+}
